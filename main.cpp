@@ -17,14 +17,14 @@ int main()
                 cout<<"\nEnter your choice: ";
                 cout<<"\n (A)dd an item";
                 cout<<"\n (Q)uit";
-                cout<<"\nYour choice (A/Q): "<<endl;
+                cout<<"\nYour choice (A/Q): ";
                 cin>>input;
                 if (input == 'A' || input == 'a')         
                 {
-                        {cout<<"What is the item?\n";
-                                cin>>nm1;
-                                if (numItems<5)
-                                list[numItems] = nm1;
+                        cout<<"What is the item?\n";
+                        cin>>nm1;
+                        if (numItems<5)
+                        { list[numItems] = nm1;
                                 numItems++;
                         }
                 }
