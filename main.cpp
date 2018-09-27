@@ -27,11 +27,12 @@ int main()
                         { list[numItems] = nm1;
                                 numItems++;
                         }
+                        else
+                { cout<<"You'll need a bigger list!\n";}
+
                 }
 
 
-                if (numItems>5)
-                { cout<<"You'll need a bigger list!\n";}
         }
         while (input != 'q' && input != 'Q');
 
