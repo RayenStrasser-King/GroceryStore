@@ -30,7 +30,7 @@ int main()
                         cin>>nm1;
                         list.push_back(nm1);
                 }
-                if (input== 'd' || input== 'D' && list.size()>0)
+                if ((input== 'd' || input== 'D') && list.size()>0)
                   {
                     //list.pop_back();
                     cout<<nm1<<" was deleted from the list.\n";
